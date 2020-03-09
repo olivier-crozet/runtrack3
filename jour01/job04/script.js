@@ -7,4 +7,5 @@ else return false;
 }
 
 var result = bisextile(annee);
-alert(result);
+////////////j'afiche pas ces pas demander mes sa serai la ligne en dessous///////////
+//alert(result);
