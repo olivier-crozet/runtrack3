@@ -7,7 +7,9 @@
 	new Date('2020/05/08')
 	];
 
-	let date = new Date('2020/01/01 00:00:00.0');
+
+
+	let data = new Date('2020/01/01 00:00:00.0');
 	
 	function jourtravaille(date)
 	{
@@ -16,19 +18,15 @@
 		{
 			
 		let	timstamp = jour[i].getTime();
-	//	let selectiondesjour = jour[i] ;
-		//let Timestamp =  selectiondesjour.getTime()
-		let	timestampdate = date.getTime();
+		let	timestampdate = data.getTime();
 	
-		//let	timstamp = Timestamp(jour.getTime());
 		
 		     if ( timestampdate == timstamp  )
 		     {
-		     	console.log( "jour ferier" + ' ' + jour );
+		     	console.log( jour + ' ' + "est un jour ferier" );
 		     }
+		    
+
 		}     
 	}
-//let result = (Date);
-//console.log( Date);
-
-let result = jourtravaille(date);
+let result = jourtravaille();
