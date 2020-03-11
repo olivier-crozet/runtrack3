@@ -1,0 +1,27 @@
+
+.renger
+{
+display: flex;
+border: solid;
+}
+.derang
+{
+height: 300px;
+width: 300px;
+border: solid black;
+}
+.cl1
+{
+	    border: solid;
+   
+    height: 433px;
+    width: 75%;
+}
+.cl2
+{
+	    border: solid;
+   
+    height: 433px;
+    width: 75%;
+}	
+}
